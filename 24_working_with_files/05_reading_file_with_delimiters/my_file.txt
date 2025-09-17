@@ -1,0 +1,5 @@
+Hello, this is the first line.
+Go is fun to learn.
+Reading files line by line with bufio.Scanner.
+This is the fourth line in the file.
+End of file reached.
