@@ -43,7 +43,7 @@ func changeProduct(p Product) {
 // declaring a function that takes in a pointer to struct value and modifies the value
 func changeProductByPointer(p *Product) {
     (*p).price = 300
-    p.productName = "Bicycle"
+    (*p).productName = "Bicycle"
     // the changes are seen to the outside world
  
 }
